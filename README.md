@@ -35,7 +35,6 @@ const Env = use('Env')
 
 module.exports = {
   id: Env.get('ALGOLIA_APP_ID'),
-  index: Env.get('ALGOLIA_APP_INDEX'),
   apiKey: Env.get('ALGOLIA_API_KEY')
 }
 ```
