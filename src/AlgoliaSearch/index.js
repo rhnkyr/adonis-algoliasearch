@@ -18,7 +18,7 @@ class AlgoliaSearch {
   index (name) {
     if (this._indices[name]) return this._indices[name]
 
-    const index = this._client.initIndex(`${this._config.index}-${name}`)
+    const index = this._client.initIndex(`${name}`)
 
     this._indices[name] = index
 
